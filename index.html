@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Generador de CV</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/curriculum.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <h2 class="text-center card-header text-white bg-dark">Para generar su CV por favor llenar el siguiente formulario</h2> 
+ <div class="row">
+     <div class="col-md-4"></div>
+     <div class="col-md-4">
+
+        <div class="card form-register">
+            <div class="card-header text-white bg-dark"><h3 class="text-center"><i class="far fa-user-circle icons"></i>Registre sus datos</h3></div>
+            <div class="card-body">
+
+                <div class="margen-top-2">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control controls" id="nombre">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="cargo" class="form-label">Cargo</label>
+                    <input type="text" class="form-control controls" id="cargo">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="perfil" class="form-label">Perfil</label>
+                    <input type="text" class="form-control controls" id="perfil">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="correo" class="form-label">Correo</label>
+                    <input type="text" class="form-control controls" id="correo">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control controls" id="telefono">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="web" class="form-label">Página Web</label>
+                    <input type="text" class="form-control controls" id="web">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="hobbies" class="form-label">Hobbies</label>
+                    <input type="text" class="form-control controls" id="hobbies" placeholder="Debes escribir separado por (,). Máximo: 4">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="empleo" class="form-label">Empleos</label>
+                    <input type="text" class="form-control controls" id="empleo" placeholder="Debes escribir separado por (,). Máximo: 3">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="educacion" class="form-label">Educación</label>
+                    <input type="text" class="form-control controls" id="educacion" placeholder="Debes escribir separado por (,). Máximo: 2">
+                </div>
+
+                <div class="margen-top-1">
+                    <label for="habilidades" class="form-label">Habilidades</label>
+                    <input type="text" class="form-control controls" id="habilidades" placeholder="Debes escribir separado por (,). Máximo: 4">
+                </div>
+                   
+                <div class="margen-top-5 mx-auto" style= "width: 200px;">
+                    <button class="btn btn-primary float-end margen-izq-4" onclick="CreateContactElement()">Crear CV</button>
+                    <button class="btn btn-success float-end margen-izq-4" onclick="Limpiar()">Limpiar</button>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="col-md-4"></div>
+ </div>
+ <div class="margen-bottom-4"></div>
+ <div id="contact-container">  
+ </div> 
+ <script src="assets/JavaScript/Index/index.js"></script>
+ <script src="https://kit.fontawesome.com/597ca9d7c7.js" crossorigin="anonymous"></script>
+</body>
+</html>
