@@ -1,3 +1,3 @@
 # Generador de CV
 
-Esta es una App la cual ingresas los datos requeridos y esta te genera un Curriculum Vitae.
+Esta es una pagina web la cual ingresas los datos requeridos y esta te genera un Curriculum Vitae.
